@@ -28,3 +28,8 @@ $ git add <nome_do_arquivo>
 ```
 $ git rm --cached <nome_do_arquivo>
 ```
+
+### Como salvar as modificações e arquivos no git
+```
+$ git commit -m "<mensagem_aqui>"
+```
