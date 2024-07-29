@@ -12,7 +12,7 @@ $ git init
 $ git status
 ```
 
-### Como informar ao git ao autor das alterações no projeto
+### Como informar ao git o autor das alterações no projeto
 ```
 $ git config --local user.name "Fabio Vige"
 $ git config --local user.email "fabiovige@gmail.com"
@@ -33,3 +33,39 @@ $ git rm --cached <nome_do_arquivo>
 ```
 $ git commit -m "<mensagem_aqui>"
 ```
+
+## Log
+### Como utilizar o comando log
+```
+$ git log
+```
+
+### Como visualizar todos os commits onde cada um ocupa apenas uma linha
+```
+$ git log --oneline
+```
+
+### Como visualizar mais detalhes das alterações dos commits
+```
+$ git log -p
+```
+
+### Exibindo log formatado
+```
+Exibe somente os hash
+$ git log --pretty="format:%H"
+
+Exibe hash de forma resumida
+$ git log --pretty="format:%h"
+
+Exibe mensagem do commit
+$ git log --pretty="format:%h %s"
+
+Exibe e-mail do autor
+$ git log --pretty="format:%h %s"
+
+```
+
+### Ignorando arquivos e diretórios com .gitignore
+Adicione o arquivo .gitignore para que o git não monitores arquivos específicos
+
