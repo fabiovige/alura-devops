@@ -71,8 +71,10 @@ Adicione o arquivo .gitignore para que o git não monitores arquivos específico
 
 ### Como enviar os dados para um servidor remoto
 ```
-// git push <para_onde> <de_onde>
-$ git push servidor main
+git push <para_onde> <de_onde>
 ```
 
-
+### Como receber os dados de um servidor remoto
+```
+$ git pull <de_onde> <para_onde>
+```
