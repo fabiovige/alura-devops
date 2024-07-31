@@ -78,3 +78,10 @@ git push <para_onde> <de_onde>
 ```
 $ git pull <de_onde> <para_onde>
 ```
+
+### Adicionando repositorio remoto do Github
+
+```
+$ git remote add <nome_repositorio> <endereço_repositorio>
+$ git remote add origin git@github.com:usuario/repo.git
+```
