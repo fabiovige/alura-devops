@@ -69,3 +69,10 @@ $ git log --pretty="format:%h %s"
 ### Ignorando arquivos e diretórios com .gitignore
 Adicione o arquivo .gitignore para que o git não monitores arquivos específicos
 
+### Como enviar os dados para um servidor remoto
+```
+// git push <para_onde> <de_onde>
+$ git push servidor main
+```
+
+
